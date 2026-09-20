@@ -1,0 +1,391 @@
+source,country,events,unique_ips
+cowrie,Bulgaria,138746,47
+cowrie,United States,68605,696
+cowrie,The Netherlands,23502,76
+cowrie,Pakistan,15137,164
+cowrie,Romania,14617,19
+cowrie,Türkiye,8143,22
+cowrie,China,7874,189
+cowrie,Germany,4626,93
+cowrie,Hong Kong,4615,28
+cowrie,Belgium,4422,86
+cowrie,Singapore,3959,43
+cowrie,France,3825,71
+cowrie,Ukraine,3549,217
+cowrie,Brazil,2400,165
+cowrie,Vietnam,2039,41
+cowrie,Poland,2005,9
+cowrie,Russia,1857,169
+cowrie,Ecuador,1703,17
+cowrie,India,1559,50
+cowrie,Indonesia,1379,78
+cowrie,South Korea,1303,44
+cowrie,Ireland,1228,3
+cowrie,Argentina,1029,246
+cowrie,United Kingdom,728,42
+cowrie,Seychelles,635,9
+cowrie,Iran,567,16
+cowrie,Taiwan,382,16
+cowrie,Bangladesh,326,19
+cowrie,Bolivia,300,6
+cowrie,Japan,276,19
+cowrie,Mexico,256,34
+cowrie,Malaysia,235,15
+cowrie,Chile,217,32
+cowrie,Canada,197,43
+cowrie,Philippines,185,17
+cowrie,Finland,177,5
+cowrie,Yemen,151,1
+cowrie,Thailand,136,17
+cowrie,Uzbekistan,136,34
+cowrie,Spain,124,20
+cowrie,South Africa,123,11
+cowrie,Madagascar,122,2
+cowrie,Portugal,114,17
+cowrie,Italy,108,28
+cowrie,Colombia,88,25
+cowrie,Ethiopia,83,2
+cowrie,Kenya,81,8
+cowrie,Norway,74,3
+cowrie,United Arab Emirates,65,9
+cowrie,Armenia,62,9
+cowrie,Sweden,62,6
+cowrie,Switzerland,61,5
+cowrie,Myanmar,60,15
+cowrie,Paraguay,58,7
+cowrie,Nigeria,53,1
+cowrie,Peru,52,4
+cowrie,Estonia,51,2
+cowrie,Tunisia,50,8
+cowrie,Cameroon,48,2
+cowrie,Panama,46,7
+cowrie,Mozambique,45,2
+cowrie,Kazakhstan,44,10
+cowrie,Moldova,42,4
+cowrie,Egypt,33,9
+cowrie,Puerto Rico,29,6
+cowrie,Venezuela,29,8
+cowrie,Malawi,28,2
+cowrie,Australia,27,4
+cowrie,Sri Lanka,27,2
+cowrie,Algeria,25,4
+cowrie,Austria,25,2
+cowrie,Dominican Republic,22,3
+cowrie,Belarus,20,6
+cowrie,Mongolia,20,1
+cowrie,Morocco,17,6
+cowrie,French Guiana,16,2
+cowrie,Nepal,16,4
+cowrie,Saudi Arabia,16,3
+cowrie,Senegal,16,3
+cowrie,Libya,15,1
+cowrie,Burkina Faso,14,5
+cowrie,Palestine,14,3
+cowrie,Azerbaijan,12,6
+cowrie,Israel,12,5
+cowrie,Latvia,12,3
+cowrie,Croatia,10,3
+cowrie,Cuba,10,1
+cowrie,Georgia,10,3
+cowrie,Honduras,10,3
+cowrie,Togo,10,4
+cowrie,U.S. Virgin Islands,10,1
+cowrie,Albania,8,4
+cowrie,Gambia,8,1
+cowrie,Guadeloupe,8,2
+cowrie,Lithuania,8,2
+cowrie,Réunion,8,3
+cowrie,Nicaragua,7,2
+cowrie,Cambodia,6,2
+cowrie,Congo (DRC),6,3
+cowrie,Greece,6,2
+cowrie,Hungary,6,2
+cowrie,Mauritania,6,1
+cowrie,Bahamas,5,1
+cowrie,Botswana,5,1
+cowrie,Cyprus,4,2
+cowrie,El Salvador,4,2
+cowrie,French Polynesia,4,2
+cowrie,Guyana,4,2
+cowrie,Iraq,4,1
+cowrie,Jamaica,4,1
+cowrie,Jordan,4,2
+cowrie,Martinique,4,2
+cowrie,North Macedonia,4,2
+cowrie,Slovenia,4,1
+cowrie,Syria,4,2
+cowrie,Uruguay,4,2
+cowrie,Congo Republic,2,1
+cowrie,Costa Rica,2,1
+cowrie,Haiti,2,1
+cowrie,Ivory Coast,2,1
+cowrie,Kyrgyzstan,2,1
+cowrie,Lebanon,2,1
+cowrie,Macao,2,1
+cowrie,Malta,2,1
+cowrie,Namibia,2,1
+cowrie,Oman,2,1
+cowrie,Serbia,2,1
+cowrie,Slovakia,2,1
+heralding,France,891805,38
+heralding,Germany,42141,15
+heralding,United States,28851,56
+heralding,South Korea,16954,9
+heralding,Brazil,12907,11
+heralding,The Netherlands,7300,20
+heralding,Portugal,4930,3
+heralding,Taiwan,4791,6
+heralding,Russia,4752,11
+heralding,Egypt,3135,1
+heralding,Vietnam,2842,2
+heralding,Ukraine,1926,3
+heralding,Pakistan,1675,1
+heralding,Malaysia,1539,3
+heralding,Indonesia,1364,7
+heralding,Philippines,1289,1
+heralding,United Kingdom,1123,3
+heralding,Poland,1075,1
+heralding,China,974,3
+heralding,Italy,940,2
+heralding,Japan,806,3
+heralding,India,801,1
+heralding,Kenya,760,1
+heralding,Moldova,739,1
+heralding,Thailand,698,1
+heralding,Bulgaria,613,2
+heralding,Bangladesh,380,2
+heralding,Chile,354,1
+heralding,Greece,247,1
+heralding,Romania,135,1
+heralding,Hong Kong,53,2
+heralding,Iran,36,1
+heralding,United Arab Emirates,23,2
+heralding,Mexico,19,1
+heralding,South Africa,19,1
+heralding,Austria,11,1
+heralding,Singapore,8,4
+heralding,Slovenia,1,1
+heralding,Sweden,1,1
+rdp,United States,151203,500
+rdp,Taiwan,120815,6
+rdp,Poland,83306,2
+rdp,Ukraine,39182,3
+rdp,Singapore,33036,114
+rdp,China,27528,99
+rdp,Indonesia,21841,10
+rdp,Vietnam,20324,52
+rdp,Germany,16266,66
+rdp,United Kingdom,10926,41
+rdp,Ethiopia,8018,2
+rdp,Hong Kong,6250,29
+rdp,Libya,5768,1
+rdp,South Korea,5523,19
+rdp,France,5293,36
+rdp,Panama,4559,1
+rdp,Thailand,3812,16
+rdp,Argentina,3755,3
+rdp,Belgium,3715,55
+rdp,Japan,2615,22
+rdp,Brazil,2585,20
+rdp,The Netherlands,2219,23
+rdp,Canada,1969,22
+rdp,United Arab Emirates,1964,8
+rdp,Seychelles,1920,8
+rdp,Slovakia,1266,3
+rdp,Bangladesh,1038,4
+rdp,Peru,1038,4
+rdp,India,876,19
+rdp,Russia,639,13
+rdp,Bulgaria,413,8
+rdp,Australia,345,2
+rdp,Sri Lanka,282,3
+rdp,Pakistan,150,8
+rdp,Türkiye,86,3
+rdp,South Africa,60,1
+rdp,Georgia,52,1
+rdp,Romania,43,4
+rdp,Finland,41,2
+rdp,Bolivia,40,1
+rdp,Portugal,40,6
+rdp,Uganda,30,1
+rdp,Philippines,24,3
+rdp,Spain,22,1
+rdp,Zimbabwe,21,1
+rdp,Nigeria,18,2
+rdp,Switzerland,18,2
+rdp,Iran,16,5
+rdp,Mozambique,12,2
+rdp,Ghana,9,1
+rdp,Israel,8,1
+rdp,Burundi,6,1
+rdp,Morocco,6,2
+rdp,Sweden,6,3
+rdp,Dominican Republic,4,1
+rdp,Armenia,2,1
+rdp,Colombia,2,1
+rdp,Czechia,2,1
+rdp,Myanmar,2,1
+sip,United States,295492,218
+sip,Philippines,74512,15
+sip,Sweden,65706,3
+sip,Germany,31498,37
+sip,France,26986,42
+sip,Poland,16365,4
+sip,Switzerland,9567,2
+sip,The Netherlands,3233,13
+sip,Singapore,1709,9
+sip,Seychelles,1092,7
+sip,Hong Kong,611,16
+sip,Lithuania,339,2
+sip,Bulgaria,308,2
+sip,United Kingdom,215,25
+sip,Romania,95,1
+sip,Indonesia,55,2
+sip,Brazil,32,17
+sip,Türkiye,22,2
+sip,Spain,14,3
+sip,United Arab Emirates,9,8
+sip,Portugal,8,7
+sip,Canada,6,5
+sip,China,6,5
+sip,Dominican Republic,5,1
+sip,South Korea,5,4
+sip,Ecuador,3,1
+sip,Estonia,3,1
+sip,Palestine,3,2
+sip,Thailand,2,2
+sip,Vietnam,2,1
+sip,Finland,1,1
+sip,Malaysia,1,1
+sip,Moldova,1,1
+sip,Ukraine,1,1
+suricata,United States,112701,4435
+suricata,France,32093,280
+suricata,China,17926,744
+suricata,,17832,38
+suricata,South Korea,11321,80
+suricata,Poland,10674,38
+suricata,Vietnam,5751,115
+suricata,The Netherlands,5680,210
+suricata,Singapore,5623,336
+suricata,Taiwan,4912,33
+suricata,Germany,3720,363
+suricata,Ukraine,2598,33
+suricata,Romania,2305,32
+suricata,United Kingdom,2048,589
+suricata,Hong Kong,1888,189
+suricata,Bulgaria,1782,75
+suricata,Indonesia,1427,135
+suricata,Panama,1200,10
+suricata,Belgium,1044,179
+suricata,Brazil,1017,144
+suricata,Japan,1011,120
+suricata,Türkiye,820,31
+suricata,Seychelles,777,24
+suricata,Russia,714,74
+suricata,Portugal,644,183
+suricata,Egypt,624,31
+suricata,Thailand,609,47
+suricata,India,574,133
+suricata,Sweden,491,25
+suricata,Libya,444,4
+suricata,Pakistan,394,84
+suricata,United Arab Emirates,332,38
+suricata,Norway,294,8
+suricata,Canada,264,104
+suricata,Argentina,220,27
+suricata,Bangladesh,220,36
+suricata,Iran,176,30
+suricata,Malaysia,171,58
+suricata,Australia,153,47
+suricata,Ecuador,151,14
+suricata,Ethiopia,117,6
+suricata,Philippines,100,38
+suricata,South Africa,96,20
+suricata,Switzerland,95,22
+suricata,Slovenia,94,33
+suricata,Armenia,92,8
+suricata,Mexico,78,45
+suricata,Sudan,78,1
+suricata,Italy,71,28
+suricata,Finland,52,21
+suricata,Bolivia,50,12
+suricata,Sri Lanka,48,6
+suricata,Spain,43,22
+suricata,Nigeria,42,18
+suricata,Myanmar,41,9
+suricata,Chile,35,17
+suricata,Ireland,34,17
+suricata,Venezuela,33,9
+suricata,Uzbekistan,31,7
+suricata,Peru,27,8
+suricata,Cambodia,26,10
+suricata,Nepal,25,7
+suricata,Slovakia,25,3
+suricata,Tunisia,24,6
+suricata,Azerbaijan,23,3
+suricata,Mongolia,23,6
+suricata,Hungary,22,9
+suricata,Eritrea,21,1
+suricata,Kenya,21,6
+suricata,Brunei,20,4
+suricata,Greece,20,8
+suricata,Israel,20,7
+suricata,Colombia,19,14
+suricata,Luxembourg,19,14
+suricata,Madagascar,19,2
+suricata,Kazakhstan,18,12
+suricata,Algeria,17,9
+suricata,Austria,17,11
+suricata,Cyprus,17,8
+suricata,Latvia,17,11
+suricata,Lithuania,17,9
+suricata,Bahamas,16,6
+suricata,Georgia,16,3
+suricata,New Zealand,16,10
+suricata,Belize,15,4
+suricata,Laos,15,4
+suricata,Puerto Rico,15,7
+suricata,Bhutan,14,4
+suricata,Estonia,14,7
+suricata,Czechia,13,7
+suricata,Macao,13,10
+suricata,Denmark,12,8
+suricata,Paraguay,12,7
+suricata,Albania,11,8
+suricata,Bosnia and Herzegovina,11,3
+suricata,Croatia,11,7
+suricata,Moldova,11,6
+suricata,Montenegro,11,4
+suricata,Iceland,10,7
+suricata,Uruguay,10,4
+suricata,Saudi Arabia,9,7
+suricata,Andorra,8,6
+suricata,Costa Rica,8,3
+suricata,Iraq,8,2
+suricata,Mozambique,8,2
+suricata,North Macedonia,8,3
+suricata,Ghana,7,4
+suricata,Lebanon,7,2
+suricata,Malta,7,3
+suricata,Serbia,7,4
+suricata,Cameroon,6,2
+suricata,Malawi,6,2
+suricata,Morocco,6,5
+suricata,Mauritania,4,1
+suricata,Dominican Republic,3,2
+suricata,Greenland,3,3
+suricata,Bahrain,2,2
+suricata,Kyrgyzstan,2,2
+suricata,Nicaragua,2,1
+suricata,Afghanistan,1,1
+suricata,Botswana,1,1
+suricata,Cuba,1,1
+suricata,Equatorial Guinea,1,1
+suricata,Guatemala,1,1
+suricata,Kosovo,1,1
+suricata,Mali,1,1
+suricata,Palestine,1,1
+suricata,Qatar,1,1
+suricata,Tajikistan,1,1
+suricata,U.S. Virgin Islands,1,1

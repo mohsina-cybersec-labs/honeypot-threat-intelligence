@@ -1,0 +1,10 @@
+category,count,unique_src
+Generic Protocol Command Decode,476608,7508
+Misc activity,12178,2461
+Not Suspicious Traffic,8203,560
+Detection of a Network Scan,1450,829
+Attempted Denial of Service,453,1
+Attempted Administrator Privilege Gain,81,33
+Potentially Bad Traffic,60,20
+Web Application Attack,3,3
+Attempted Information Leak,2,1

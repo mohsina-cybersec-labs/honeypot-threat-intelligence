@@ -1,0 +1,29 @@
+# Never commit credential or key material
+*.pem
+*.key
+*.p12
+*.pfx
+*.mmdb
+
+# Raw honeypot exports and working directories
+raw/
+*.tar.gz
+*.tar
+*.gz
+data/elk/
+suricata-alerts/
+
+# Large derived files kept local
+heralding_sessions.csv
+source_ips_enriched.csv
+suricata_alerts_full.csv
+
+# Environment
+.env
+.venv/
+__pycache__/
+.DS_Store
+.ipynb_checkpoints/
+
+# Sanitization term list, never commit
+.sanitize-terms
