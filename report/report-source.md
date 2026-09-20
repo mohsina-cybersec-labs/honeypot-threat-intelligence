@@ -442,13 +442,50 @@ One detail on infrastructure: the delivering address and the hosting address dif
 
 The fetches succeeded because egress filtering permitted HTTP on port 80, which every payload URL used. This is a correction to my own collection notes, which recorded egress filtering as having blocked malware retrieval. It blocked outbound SSH, SMTP, and arbitrary ports. It did not block HTTP.
 
-**Family attribution.** The samples were not submitted to a multi-engine scanning service and no hash-based verification was performed, so the attribution below rests on naming convention and public analysis of identically named samples rather than on these specific binaries.
+**Family attribution, verified.** All seven hashes were submitted to VirusTotal for
+multi-engine analysis. Five returned detections; two did not.
 
-The filename pattern `m-<architecture>.Sakura` matches samples publicly analyzed elsewhere, where automated sandbox analysis of an identically named file, `m-6.8-k.Sakura.elf`, produced YARA detections for both the Mirai and Gafgyt families. Both are Linux botnet families targeting embedded devices, and Gafgyt code is frequently reused inside Mirai derivatives.
+| Filename | Detections | Type | Architecture | Threat label |
+|---|---|---|---|---|
+| `s-h.4-.Sakura` | 46 / 64 | ELF | AArch64 | trojan.gafgyt/mirai |
+| `m-i.p-s.Sakura` | 44 / 63 | ELF | MIPS32 | trojan.gafgyt/mirai |
+| `m-p.s-l.Sakura` | 43 / 62 | ELF | MIPSEL | trojan.gafgyt/mirai |
+| `Sakura.sh` | 39 / 60 | shell | n/a | downloader.medusa/shell |
+| `kla.sh` | 32 / 61 | shell | n/a | downloader.bash/miraia |
+| unnamed `.bin` | 0 / 60 | unknown | unknown | none |
+| unnamed | 0 / 61 | text, 55 bytes | n/a | none |
 
-That attribution is consistent with everything else observed here: the architectures targeted are embedded processor families, the delivery method is a shell dropper fetching an architecture-specific binary, and the same operators were attempting manufacturer default credentials for routers, cameras, and DVRs. It should be read as a family-level indication, not a confirmed identification.
+The three binaries are confirmed **Gafgyt/Mirai/BASHLITE** DDoS agents. Vendor analysis
+describes hardcoded command-and-control connections, a registration beacon reporting device
+IP, port and architecture, and flood commands covering TCP, UDP, Valve Source Engine query
+amplification, and STD/HEX. One adds OVHKILL and CRUSH attack vectors.
 
-The binaries were not retained. Only log directories were archived at teardown, so the samples themselves no longer exist. The hashes are published so that anyone with access to a malware repository can verify or correct this attribution. No static analysis was performed and none is claimed.
+**One correction to an earlier inference.** The filename `s-h.4-.Sakura` reads as SuperH
+SH-4, and that is what I assumed. Static analysis shows it is compiled for **AArch64**, a
+64-bit ARM target. Filename conventions in this family are not reliable architecture
+indicators, and I would have published the wrong architecture had the hashes not been
+checked.
+
+**Both droppers carry anti-analysis behavior.** `Sakura.sh` is tagged for
+debug-environment detection, service scanning, and self-deletion. `kla.sh` adds process-name
+spoofing, persistence, and long sleeps. This is the same tradecraft documented in section
+6.4: the operators expect to land in instrumented environments and build for it.
+
+`kla.sh` also attempts payloads across more than ten architectures, including x86_64, x86,
+MIPS, ARM variants, PowerPC, m68k, SuperH, SPARC, ARC and i486/i686, saving each as
+`net_bot`. That breadth is consistent with indiscriminate embedded-device targeting rather
+than a campaign aimed at any particular platform.
+
+**The two undetected samples.** One is 55 bytes of plain text, which is consistent with a
+failed fetch capturing an error response rather than a payload. The other is an unnamed
+binary with no detections across 60 engines. Zero detections does not establish that a file
+is benign; it establishes that no participating vendor has a signature for it.
+
+Per-sample results are published in `data/malware_attribution.csv`.
+
+The binaries themselves were not retained, since only log directories were archived at
+teardown. Attribution above comes from VirusTotal's multi-engine analysis of the hashes. No
+static analysis was performed locally and none is claimed.
 
 ### 6.3 No human intrusion, and how I verified it
 
@@ -668,7 +705,7 @@ this report, the report is correct and section 8 explains why.
 - NIST, *National Vulnerability Database*, entries for CVE-2020-5902, CVE-2020-11910, and CVE-2020-29583
 - MaxMind, *GeoLite2 ASN and Country databases*, September 2026
 - Proofpoint, *Emerging Threats ruleset*
-- Joe Security, *Automated Malware Analysis Report for m-6.8-k.Sakura.elf*, September 2025
+- VirusTotal, multi-engine analysis of seven captured sample hashes, September 2026
 - Fortinet FortiGuard Labs, *The Ghosts of Mirai*, 2021
 
 ---
